@@ -1,0 +1,22 @@
+{
+  "offers": [
+    {
+      "seller": "Seller A",
+      "price": 14682,
+      "deliveryDays": 8,
+      "rating": 9.0
+    },
+    {
+      "seller": "Seller B",
+      "price": 12935,
+      "deliveryDays": 3,
+      "rating": 8.7
+    },
+    {
+      "seller": "Seller C",
+      "price": 13648,
+      "deliveryDays": 1,
+      "rating": 8.4
+    }
+  ]
+}

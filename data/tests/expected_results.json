@@ -1,0 +1,1102 @@
+[
+  {
+    "dataset": 1,
+    "winner": "Seller B",
+    "winnerScore": 0.871967,
+    "priceWeightPct": 29.221,
+    "deliveryWeightPct": 29.883,
+    "ratingWeightPct": 40.896,
+    "ranking": [
+      {
+        "seller": "Seller B",
+        "score": 0.871967
+      },
+      {
+        "seller": "Seller A",
+        "score": 0.429577
+      },
+      {
+        "seller": "Seller C",
+        "score": 0.372858
+      }
+    ]
+  },
+  {
+    "dataset": 2,
+    "winner": "Seller C",
+    "winnerScore": 0.538075,
+    "priceWeightPct": 40.4322,
+    "deliveryWeightPct": 16.0581,
+    "ratingWeightPct": 43.5096,
+    "ranking": [
+      {
+        "seller": "Seller C",
+        "score": 0.538075
+      },
+      {
+        "seller": "Seller A",
+        "score": 0.49997
+      },
+      {
+        "seller": "Seller B",
+        "score": 0.0
+      }
+    ]
+  },
+  {
+    "dataset": 3,
+    "winner": "Seller C",
+    "winnerScore": 0.582273,
+    "priceWeightPct": 38.7244,
+    "deliveryWeightPct": 30.5058,
+    "ratingWeightPct": 30.7698,
+    "ranking": [
+      {
+        "seller": "Seller C",
+        "score": 0.582273
+      },
+      {
+        "seller": "Seller A",
+        "score": 0.474573
+      },
+      {
+        "seller": "Seller B",
+        "score": 0.471943
+      }
+    ]
+  },
+  {
+    "dataset": 4,
+    "winner": "Seller C",
+    "winnerScore": 0.880101,
+    "priceWeightPct": 29.9082,
+    "deliveryWeightPct": 29.1673,
+    "ratingWeightPct": 40.9245,
+    "ranking": [
+      {
+        "seller": "Seller C",
+        "score": 0.880101
+      },
+      {
+        "seller": "Seller A",
+        "score": 0.597432
+      },
+      {
+        "seller": "Seller B",
+        "score": 0.0
+      }
+    ]
+  },
+  {
+    "dataset": 5,
+    "winner": "Seller B",
+    "winnerScore": 0.569093,
+    "priceWeightPct": 38.1871,
+    "deliveryWeightPct": 29.273,
+    "ratingWeightPct": 32.5399,
+    "ranking": [
+      {
+        "seller": "Seller B",
+        "score": 0.569093
+      },
+      {
+        "seller": "Seller A",
+        "score": 0.471394
+      },
+      {
+        "seller": "Seller C",
+        "score": 0.446545
+      }
+    ]
+  },
+  {
+    "dataset": 6,
+    "winner": "Seller B",
+    "winnerScore": 1.0,
+    "priceWeightPct": 34.4865,
+    "deliveryWeightPct": 34.8711,
+    "ratingWeightPct": 30.6423,
+    "ranking": [
+      {
+        "seller": "Seller B",
+        "score": 1.0
+      },
+      {
+        "seller": "Seller C",
+        "score": 0.610642
+      },
+      {
+        "seller": "Seller A",
+        "score": 0.0
+      }
+    ]
+  },
+  {
+    "dataset": 7,
+    "winner": "Seller B",
+    "winnerScore": 0.648893,
+    "priceWeightPct": 23.7443,
+    "deliveryWeightPct": 30.4456,
+    "ratingWeightPct": 45.81,
+    "ranking": [
+      {
+        "seller": "Seller B",
+        "score": 0.648893
+      },
+      {
+        "seller": "Seller C",
+        "score": 0.457356
+      },
+      {
+        "seller": "Seller A",
+        "score": 0.039853
+      }
+    ]
+  },
+  {
+    "dataset": 8,
+    "winner": "Seller B",
+    "winnerScore": 0.729172,
+    "priceWeightPct": 30.3133,
+    "deliveryWeightPct": 43.3619,
+    "ratingWeightPct": 26.3248,
+    "ranking": [
+      {
+        "seller": "Seller B",
+        "score": 0.729172
+      },
+      {
+        "seller": "Seller C",
+        "score": 0.48076
+      },
+      {
+        "seller": "Seller A",
+        "score": 0.118007
+      }
+    ]
+  },
+  {
+    "dataset": 9,
+    "winner": "Seller B",
+    "winnerScore": 0.598573,
+    "priceWeightPct": 22.3863,
+    "deliveryWeightPct": 34.4017,
+    "ratingWeightPct": 43.212,
+    "ranking": [
+      {
+        "seller": "Seller B",
+        "score": 0.598573
+      },
+      {
+        "seller": "Seller C",
+        "score": 0.487135
+      },
+      {
+        "seller": "Seller A",
+        "score": 0.047676
+      }
+    ]
+  },
+  {
+    "dataset": 10,
+    "winner": "Seller A",
+    "winnerScore": 0.541415,
+    "priceWeightPct": 32.7357,
+    "deliveryWeightPct": 30.3164,
+    "ratingWeightPct": 36.9479,
+    "ranking": [
+      {
+        "seller": "Seller A",
+        "score": 0.541415
+      },
+      {
+        "seller": "Seller C",
+        "score": 0.501089
+      },
+      {
+        "seller": "Seller B",
+        "score": 0.451376
+      }
+    ]
+  },
+  {
+    "dataset": 11,
+    "winner": "Seller A",
+    "winnerScore": 0.69065,
+    "priceWeightPct": 50.0685,
+    "deliveryWeightPct": 25.044,
+    "ratingWeightPct": 24.8875,
+    "ranking": [
+      {
+        "seller": "Seller A",
+        "score": 0.69065
+      },
+      {
+        "seller": "Seller C",
+        "score": 0.406784
+      },
+      {
+        "seller": "Seller B",
+        "score": 0.296122
+      }
+    ]
+  },
+  {
+    "dataset": 12,
+    "winner": "Seller C",
+    "winnerScore": 0.609783,
+    "priceWeightPct": 30.471,
+    "deliveryWeightPct": 32.7583,
+    "ratingWeightPct": 36.7707,
+    "ranking": [
+      {
+        "seller": "Seller C",
+        "score": 0.609783
+      },
+      {
+        "seller": "Seller B",
+        "score": 0.537807
+      },
+      {
+        "seller": "Seller A",
+        "score": 0.382238
+      }
+    ]
+  },
+  {
+    "dataset": 13,
+    "winner": "Seller B",
+    "winnerScore": 0.569156,
+    "priceWeightPct": 29.2554,
+    "deliveryWeightPct": 35.7663,
+    "ratingWeightPct": 34.9783,
+    "ranking": [
+      {
+        "seller": "Seller B",
+        "score": 0.569156
+      },
+      {
+        "seller": "Seller A",
+        "score": 0.461122
+      },
+      {
+        "seller": "Seller C",
+        "score": 0.12554
+      }
+    ]
+  },
+  {
+    "dataset": 14,
+    "winner": "Seller B",
+    "winnerScore": 0.59622,
+    "priceWeightPct": 38.0753,
+    "deliveryWeightPct": 32.5626,
+    "ratingWeightPct": 29.3621,
+    "ranking": [
+      {
+        "seller": "Seller B",
+        "score": 0.59622
+      },
+      {
+        "seller": "Seller C",
+        "score": 0.40378
+      },
+      {
+        "seller": "Seller A",
+        "score": 0.383534
+      }
+    ]
+  },
+  {
+    "dataset": 15,
+    "winner": "Seller A",
+    "winnerScore": 0.593549,
+    "priceWeightPct": 39.102,
+    "deliveryWeightPct": 22.8341,
+    "ratingWeightPct": 38.064,
+    "ranking": [
+      {
+        "seller": "Seller A",
+        "score": 0.593549
+      },
+      {
+        "seller": "Seller B",
+        "score": 0.577855
+      },
+      {
+        "seller": "Seller C",
+        "score": 0.0
+      }
+    ]
+  },
+  {
+    "dataset": 16,
+    "winner": "Seller A",
+    "winnerScore": 0.739558,
+    "priceWeightPct": 32.4332,
+    "deliveryWeightPct": 34.629,
+    "ratingWeightPct": 32.9378,
+    "ranking": [
+      {
+        "seller": "Seller A",
+        "score": 0.739558
+      },
+      {
+        "seller": "Seller C",
+        "score": 0.595723
+      },
+      {
+        "seller": "Seller B",
+        "score": 0.361244
+      }
+    ]
+  },
+  {
+    "dataset": 17,
+    "winner": "Seller B",
+    "winnerScore": 0.601163,
+    "priceWeightPct": 31.9937,
+    "deliveryWeightPct": 36.5643,
+    "ratingWeightPct": 31.442,
+    "ranking": [
+      {
+        "seller": "Seller B",
+        "score": 0.601163
+      },
+      {
+        "seller": "Seller C",
+        "score": 0.485514
+      },
+      {
+        "seller": "Seller A",
+        "score": 0.439975
+      }
+    ]
+  },
+  {
+    "dataset": 18,
+    "winner": "Seller B",
+    "winnerScore": 1.0,
+    "priceWeightPct": 31.3503,
+    "deliveryWeightPct": 30.8224,
+    "ratingWeightPct": 37.8273,
+    "ranking": [
+      {
+        "seller": "Seller B",
+        "score": 1.0
+      },
+      {
+        "seller": "Seller C",
+        "score": 0.617418
+      },
+      {
+        "seller": "Seller A",
+        "score": 0.0
+      }
+    ]
+  },
+  {
+    "dataset": 19,
+    "winner": "Seller A",
+    "winnerScore": 0.651362,
+    "priceWeightPct": 33.3616,
+    "deliveryWeightPct": 31.6127,
+    "ratingWeightPct": 35.0257,
+    "ranking": [
+      {
+        "seller": "Seller A",
+        "score": 0.651362
+      },
+      {
+        "seller": "Seller B",
+        "score": 0.585796
+      },
+      {
+        "seller": "Seller C",
+        "score": 0.414204
+      }
+    ]
+  },
+  {
+    "dataset": 20,
+    "winner": "Seller B",
+    "winnerScore": 0.81436,
+    "priceWeightPct": 29.2603,
+    "deliveryWeightPct": 30.2806,
+    "ratingWeightPct": 40.4591,
+    "ranking": [
+      {
+        "seller": "Seller B",
+        "score": 0.81436
+      },
+      {
+        "seller": "Seller C",
+        "score": 0.550339
+      },
+      {
+        "seller": "Seller A",
+        "score": 0.0
+      }
+    ]
+  },
+  {
+    "dataset": 21,
+    "winner": "Seller B",
+    "winnerScore": 0.743891,
+    "priceWeightPct": 23.7509,
+    "deliveryWeightPct": 29.5143,
+    "ratingWeightPct": 46.7348,
+    "ranking": [
+      {
+        "seller": "Seller B",
+        "score": 0.743891
+      },
+      {
+        "seller": "Seller C",
+        "score": 0.45136
+      },
+      {
+        "seller": "Seller A",
+        "score": 0.0
+      }
+    ]
+  },
+  {
+    "dataset": 22,
+    "winner": "Seller B",
+    "winnerScore": 0.702411,
+    "priceWeightPct": 22.945,
+    "deliveryWeightPct": 21.5158,
+    "ratingWeightPct": 55.5392,
+    "ranking": [
+      {
+        "seller": "Seller B",
+        "score": 0.702411
+      },
+      {
+        "seller": "Seller C",
+        "score": 0.361574
+      },
+      {
+        "seller": "Seller A",
+        "score": 0.191603
+      }
+    ]
+  },
+  {
+    "dataset": 23,
+    "winner": "Seller A",
+    "winnerScore": 0.632831,
+    "priceWeightPct": 33.2968,
+    "deliveryWeightPct": 33.7942,
+    "ratingWeightPct": 32.909,
+    "ranking": [
+      {
+        "seller": "Seller A",
+        "score": 0.632831
+      },
+      {
+        "seller": "Seller B",
+        "score": 0.590434
+      },
+      {
+        "seller": "Seller C",
+        "score": 0.409566
+      }
+    ]
+  },
+  {
+    "dataset": 24,
+    "winner": "Seller A",
+    "winnerScore": 0.633558,
+    "priceWeightPct": 29.3402,
+    "deliveryWeightPct": 29.13,
+    "ratingWeightPct": 41.5298,
+    "ranking": [
+      {
+        "seller": "Seller A",
+        "score": 0.633558
+      },
+      {
+        "seller": "Seller C",
+        "score": 0.528674
+      },
+      {
+        "seller": "Seller B",
+        "score": 0.366442
+      }
+    ]
+  },
+  {
+    "dataset": 25,
+    "winner": "Seller B",
+    "winnerScore": 0.662649,
+    "priceWeightPct": 47.0799,
+    "deliveryWeightPct": 27.2897,
+    "ratingWeightPct": 25.6303,
+    "ranking": [
+      {
+        "seller": "Seller B",
+        "score": 0.662649
+      },
+      {
+        "seller": "Seller C",
+        "score": 0.456318
+      },
+      {
+        "seller": "Seller A",
+        "score": 0.230363
+      }
+    ]
+  },
+  {
+    "dataset": 26,
+    "winner": "Seller A",
+    "winnerScore": 0.678636,
+    "priceWeightPct": 35.8102,
+    "deliveryWeightPct": 34.8543,
+    "ratingWeightPct": 29.3354,
+    "ranking": [
+      {
+        "seller": "Seller A",
+        "score": 0.678636
+      },
+      {
+        "seller": "Seller C",
+        "score": 0.534521
+      },
+      {
+        "seller": "Seller B",
+        "score": 0.215356
+      }
+    ]
+  },
+  {
+    "dataset": 27,
+    "winner": "Seller B",
+    "winnerScore": 1.0,
+    "priceWeightPct": 36.9884,
+    "deliveryWeightPct": 33.8467,
+    "ratingWeightPct": 29.1649,
+    "ranking": [
+      {
+        "seller": "Seller B",
+        "score": 1.0
+      },
+      {
+        "seller": "Seller A",
+        "score": 0.353
+      },
+      {
+        "seller": "Seller C",
+        "score": 0.0
+      }
+    ]
+  },
+  {
+    "dataset": 28,
+    "winner": "Seller C",
+    "winnerScore": 0.832472,
+    "priceWeightPct": 37.6903,
+    "deliveryWeightPct": 32.3017,
+    "ratingWeightPct": 30.008,
+    "ranking": [
+      {
+        "seller": "Seller C",
+        "score": 0.832472
+      },
+      {
+        "seller": "Seller A",
+        "score": 0.453873
+      },
+      {
+        "seller": "Seller B",
+        "score": 0.195943
+      }
+    ]
+  },
+  {
+    "dataset": 29,
+    "winner": "Seller C",
+    "winnerScore": 0.579832,
+    "priceWeightPct": 49.3894,
+    "deliveryWeightPct": 25.0127,
+    "ratingWeightPct": 25.5979,
+    "ranking": [
+      {
+        "seller": "Seller C",
+        "score": 0.579832
+      },
+      {
+        "seller": "Seller A",
+        "score": 0.446313
+      },
+      {
+        "seller": "Seller B",
+        "score": 0.36216
+      }
+    ]
+  },
+  {
+    "dataset": 30,
+    "winner": "Seller B",
+    "winnerScore": 0.819499,
+    "priceWeightPct": 45.4389,
+    "deliveryWeightPct": 28.6179,
+    "ratingWeightPct": 25.9432,
+    "ranking": [
+      {
+        "seller": "Seller B",
+        "score": 0.819499
+      },
+      {
+        "seller": "Seller A",
+        "score": 0.392945
+      },
+      {
+        "seller": "Seller C",
+        "score": 0.0
+      }
+    ]
+  },
+  {
+    "dataset": 31,
+    "winner": "Seller C",
+    "winnerScore": 0.960013,
+    "priceWeightPct": 31.2342,
+    "deliveryWeightPct": 32.2478,
+    "ratingWeightPct": 36.518,
+    "ranking": [
+      {
+        "seller": "Seller C",
+        "score": 0.960013
+      },
+      {
+        "seller": "Seller B",
+        "score": 0.484449
+      },
+      {
+        "seller": "Seller A",
+        "score": 0.320083
+      }
+    ]
+  },
+  {
+    "dataset": 32,
+    "winner": "Seller B",
+    "winnerScore": 0.806685,
+    "priceWeightPct": 32.5301,
+    "deliveryWeightPct": 32.7951,
+    "ratingWeightPct": 34.6747,
+    "ranking": [
+      {
+        "seller": "Seller B",
+        "score": 0.806685
+      },
+      {
+        "seller": "Seller C",
+        "score": 0.506294
+      },
+      {
+        "seller": "Seller A",
+        "score": 0.260024
+      }
+    ]
+  },
+  {
+    "dataset": 33,
+    "winner": "Seller B",
+    "winnerScore": 0.633913,
+    "priceWeightPct": 30.9353,
+    "deliveryWeightPct": 29.1592,
+    "ratingWeightPct": 39.9055,
+    "ranking": [
+      {
+        "seller": "Seller B",
+        "score": 0.633913
+      },
+      {
+        "seller": "Seller C",
+        "score": 0.486954
+      },
+      {
+        "seller": "Seller A",
+        "score": 0.366087
+      }
+    ]
+  },
+  {
+    "dataset": 34,
+    "winner": "Seller B",
+    "winnerScore": 0.863694,
+    "priceWeightPct": 39.5892,
+    "deliveryWeightPct": 30.2357,
+    "ratingWeightPct": 30.1751,
+    "ranking": [
+      {
+        "seller": "Seller B",
+        "score": 0.863694
+      },
+      {
+        "seller": "Seller A",
+        "score": 0.450213
+      },
+      {
+        "seller": "Seller C",
+        "score": 0.377237
+      }
+    ]
+  },
+  {
+    "dataset": 35,
+    "winner": "Seller B",
+    "winnerScore": 0.558,
+    "priceWeightPct": 34.5735,
+    "deliveryWeightPct": 35.9754,
+    "ratingWeightPct": 29.4511,
+    "ranking": [
+      {
+        "seller": "Seller B",
+        "score": 0.558
+      },
+      {
+        "seller": "Seller C",
+        "score": 0.524986
+      },
+      {
+        "seller": "Seller A",
+        "score": 0.442
+      }
+    ]
+  },
+  {
+    "dataset": 36,
+    "winner": "Seller A",
+    "winnerScore": 0.618812,
+    "priceWeightPct": 35.7787,
+    "deliveryWeightPct": 32.7586,
+    "ratingWeightPct": 31.4627,
+    "ranking": [
+      {
+        "seller": "Seller A",
+        "score": 0.618812
+      },
+      {
+        "seller": "Seller C",
+        "score": 0.546641
+      },
+      {
+        "seller": "Seller B",
+        "score": 0.407428
+      }
+    ]
+  },
+  {
+    "dataset": 37,
+    "winner": "Seller B",
+    "winnerScore": 0.579534,
+    "priceWeightPct": 31.2879,
+    "deliveryWeightPct": 33.9383,
+    "ratingWeightPct": 34.7738,
+    "ranking": [
+      {
+        "seller": "Seller B",
+        "score": 0.579534
+      },
+      {
+        "seller": "Seller A",
+        "score": 0.49543
+      },
+      {
+        "seller": "Seller C",
+        "score": 0.30351
+      }
+    ]
+  },
+  {
+    "dataset": 38,
+    "winner": "Seller B",
+    "winnerScore": 0.797899,
+    "priceWeightPct": 33.305,
+    "deliveryWeightPct": 31.3393,
+    "ratingWeightPct": 35.3558,
+    "ranking": [
+      {
+        "seller": "Seller B",
+        "score": 0.797899
+      },
+      {
+        "seller": "Seller C",
+        "score": 0.511701
+      },
+      {
+        "seller": "Seller A",
+        "score": 0.348362
+      }
+    ]
+  },
+  {
+    "dataset": 39,
+    "winner": "Seller B",
+    "winnerScore": 0.62727,
+    "priceWeightPct": 29.8253,
+    "deliveryWeightPct": 40.4308,
+    "ratingWeightPct": 29.7439,
+    "ranking": [
+      {
+        "seller": "Seller B",
+        "score": 0.62727
+      },
+      {
+        "seller": "Seller A",
+        "score": 0.508648
+      },
+      {
+        "seller": "Seller C",
+        "score": 0.37273
+      }
+    ]
+  },
+  {
+    "dataset": 40,
+    "winner": "Seller B",
+    "winnerScore": 0.652751,
+    "priceWeightPct": 42.9822,
+    "deliveryWeightPct": 27.6832,
+    "ratingWeightPct": 29.3346,
+    "ranking": [
+      {
+        "seller": "Seller B",
+        "score": 0.652751
+      },
+      {
+        "seller": "Seller A",
+        "score": 0.391391
+      },
+      {
+        "seller": "Seller C",
+        "score": 0.37304
+      }
+    ]
+  },
+  {
+    "dataset": 41,
+    "winner": "Seller B",
+    "winnerScore": 0.774886,
+    "priceWeightPct": 35.7086,
+    "deliveryWeightPct": 32.436,
+    "ratingWeightPct": 31.8554,
+    "ranking": [
+      {
+        "seller": "Seller B",
+        "score": 0.774886
+      },
+      {
+        "seller": "Seller A",
+        "score": 0.491825
+      },
+      {
+        "seller": "Seller C",
+        "score": 0.403992
+      }
+    ]
+  },
+  {
+    "dataset": 42,
+    "winner": "Seller B",
+    "winnerScore": 0.632349,
+    "priceWeightPct": 29.031,
+    "deliveryWeightPct": 29.4534,
+    "ratingWeightPct": 41.5156,
+    "ranking": [
+      {
+        "seller": "Seller B",
+        "score": 0.632349
+      },
+      {
+        "seller": "Seller C",
+        "score": 0.447642
+      },
+      {
+        "seller": "Seller A",
+        "score": 0.310026
+      }
+    ]
+  },
+  {
+    "dataset": 43,
+    "winner": "Seller B",
+    "winnerScore": 0.689992,
+    "priceWeightPct": 33.2294,
+    "deliveryWeightPct": 31.7689,
+    "ratingWeightPct": 35.0016,
+    "ranking": [
+      {
+        "seller": "Seller B",
+        "score": 0.689992
+      },
+      {
+        "seller": "Seller C",
+        "score": 0.498845
+      },
+      {
+        "seller": "Seller A",
+        "score": 0.432258
+      }
+    ]
+  },
+  {
+    "dataset": 44,
+    "winner": "Seller C",
+    "winnerScore": 0.674898,
+    "priceWeightPct": 27.2537,
+    "deliveryWeightPct": 39.1743,
+    "ratingWeightPct": 33.572,
+    "ranking": [
+      {
+        "seller": "Seller C",
+        "score": 0.674898
+      },
+      {
+        "seller": "Seller A",
+        "score": 0.41297
+      },
+      {
+        "seller": "Seller B",
+        "score": 0.393623
+      }
+    ]
+  },
+  {
+    "dataset": 45,
+    "winner": "Seller B",
+    "winnerScore": 0.806809,
+    "priceWeightPct": 32.1226,
+    "deliveryWeightPct": 31.4549,
+    "ratingWeightPct": 36.4225,
+    "ranking": [
+      {
+        "seller": "Seller B",
+        "score": 0.806809
+      },
+      {
+        "seller": "Seller C",
+        "score": 0.503014
+      },
+      {
+        "seller": "Seller A",
+        "score": 0.23383
+      }
+    ]
+  },
+  {
+    "dataset": 46,
+    "winner": "Seller B",
+    "winnerScore": 0.622274,
+    "priceWeightPct": 37.884,
+    "deliveryWeightPct": 30.1058,
+    "ratingWeightPct": 32.0101,
+    "ranking": [
+      {
+        "seller": "Seller B",
+        "score": 0.622274
+      },
+      {
+        "seller": "Seller A",
+        "score": 0.459424
+      },
+      {
+        "seller": "Seller C",
+        "score": 0.361279
+      }
+    ]
+  },
+  {
+    "dataset": 47,
+    "winner": "Seller B",
+    "winnerScore": 0.787797,
+    "priceWeightPct": 45.0448,
+    "deliveryWeightPct": 25.8911,
+    "ratingWeightPct": 29.0641,
+    "ranking": [
+      {
+        "seller": "Seller B",
+        "score": 0.787797
+      },
+      {
+        "seller": "Seller C",
+        "score": 0.440444
+      },
+      {
+        "seller": "Seller A",
+        "score": 0.107777
+      }
+    ]
+  },
+  {
+    "dataset": 48,
+    "winner": "Seller C",
+    "winnerScore": 0.567214,
+    "priceWeightPct": 35.0674,
+    "deliveryWeightPct": 33.9115,
+    "ratingWeightPct": 31.0211,
+    "ranking": [
+      {
+        "seller": "Seller C",
+        "score": 0.567214
+      },
+      {
+        "seller": "Seller A",
+        "score": 0.53558
+      },
+      {
+        "seller": "Seller B",
+        "score": 0.432786
+      }
+    ]
+  },
+  {
+    "dataset": 49,
+    "winner": "Seller B",
+    "winnerScore": 0.603539,
+    "priceWeightPct": 31.7515,
+    "deliveryWeightPct": 36.0519,
+    "ratingWeightPct": 32.1966,
+    "ranking": [
+      {
+        "seller": "Seller B",
+        "score": 0.603539
+      },
+      {
+        "seller": "Seller C",
+        "score": 0.50807
+      },
+      {
+        "seller": "Seller A",
+        "score": 0.497359
+      }
+    ]
+  },
+  {
+    "dataset": 50,
+    "winner": "Seller B",
+    "winnerScore": 0.595653,
+    "priceWeightPct": 40.8715,
+    "deliveryWeightPct": 29.912,
+    "ratingWeightPct": 29.2165,
+    "ranking": [
+      {
+        "seller": "Seller B",
+        "score": 0.595653
+      },
+      {
+        "seller": "Seller C",
+        "score": 0.591593
+      },
+      {
+        "seller": "Seller A",
+        "score": 0.299823
+      }
+    ]
+  }
+]

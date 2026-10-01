@@ -1,0 +1,92 @@
+{
+    "autoWeights": {
+        "delivery": 33.58396874384261,
+        "price": 33.406897973343256,
+        "rating": 33.00913328281413
+    },
+    "bestMatch": "Seller H",
+    "engineVersion": "V9",
+    "ranking": [
+        {
+            "deliveryDays": 2.0,
+            "price": 1825.0,
+            "rank": 1,
+            "rating": 9.3,
+            "seller": "Seller H",
+            "topsisScore": 0.6261455239149294
+        },
+        {
+            "deliveryDays": 3.0,
+            "price": 1760.0,
+            "rank": 2,
+            "rating": 9.0,
+            "seller": "Seller D",
+            "topsisScore": 0.6220808299395002
+        },
+        {
+            "deliveryDays": 5.0,
+            "price": 1700.0,
+            "rank": 3,
+            "rating": 9.2,
+            "seller": "Seller B",
+            "topsisScore": 0.6143394412299208
+        },
+        {
+            "deliveryDays": 3.0,
+            "price": 1750.0,
+            "rank": 4,
+            "rating": 8.9,
+            "seller": "Seller I",
+            "topsisScore": 0.6124610911155791
+        },
+        {
+            "deliveryDays": 1.0,
+            "price": 1900.0,
+            "rank": 5,
+            "rating": 9.5,
+            "seller": "Seller F",
+            "topsisScore": 0.5849924573827572
+        },
+        {
+            "deliveryDays": 1.0,
+            "price": 1850.0,
+            "rank": 6,
+            "rating": 8.8,
+            "seller": "Seller C",
+            "topsisScore": 0.5475425478733309
+        },
+        {
+            "deliveryDays": 4.0,
+            "price": 1725.0,
+            "rank": 7,
+            "rating": 8.7,
+            "seller": "Seller G",
+            "topsisScore": 0.5414148468566862
+        },
+        {
+            "deliveryDays": 2.0,
+            "price": 1800.0,
+            "rank": 8,
+            "rating": 8.5,
+            "seller": "Seller A",
+            "topsisScore": 0.507569357131984
+        },
+        {
+            "deliveryDays": 7.0,
+            "price": 1650.0,
+            "rank": 9,
+            "rating": 8.4,
+            "seller": "Seller J",
+            "topsisScore": 0.44590445596654055
+        },
+        {
+            "deliveryDays": 6.0,
+            "price": 1680.0,
+            "rank": 10,
+            "rating": 8.1,
+            "seller": "Seller E",
+            "topsisScore": 0.4077806065023091
+        }
+    ],
+    "weightMethod": "entropy"
+}

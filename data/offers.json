@@ -1,0 +1,64 @@
+{
+  "offers": [
+    {
+      "seller": "Seller A",
+      "price": 1800,
+      "deliveryDays": 2,
+      "rating": 8.5
+    },
+    {
+      "seller": "Seller B",
+      "price": 1700,
+      "deliveryDays": 5,
+      "rating": 9.2
+    },
+    {
+      "seller": "Seller C",
+      "price": 1850,
+      "deliveryDays": 1,
+      "rating": 8.8
+    },
+    {
+      "seller": "Seller D",
+      "price": 1760,
+      "deliveryDays": 3,
+      "rating": 9.0
+    },
+    {
+      "seller": "Seller E",
+      "price": 1680,
+      "deliveryDays": 6,
+      "rating": 8.1
+    },
+    {
+      "seller": "Seller F",
+      "price": 1900,
+      "deliveryDays": 1,
+      "rating": 9.5
+    },
+    {
+      "seller": "Seller G",
+      "price": 1725,
+      "deliveryDays": 4,
+      "rating": 8.7
+    },
+    {
+      "seller": "Seller H",
+      "price": 1825,
+      "deliveryDays": 2,
+      "rating": 9.3
+    },
+    {
+      "seller": "Seller I",
+      "price": 1750,
+      "deliveryDays": 3,
+      "rating": 8.9
+    },
+    {
+      "seller": "Seller J",
+      "price": 1650,
+      "deliveryDays": 7,
+      "rating": 8.4
+    }
+  ]
+}
