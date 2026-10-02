@@ -223,7 +223,7 @@ RankingResult runV9(std::vector<Offer> offers) {
         }
     }
 
-    std::sort(
+    std::stable_sort(
         offers.begin(),
         offers.end(),
         [](const Offer& a, const Offer& b) {
