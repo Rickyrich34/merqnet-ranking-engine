@@ -254,6 +254,73 @@ int listenPortFromEnvironment() {
     return static_cast<int>(parsed);
 }
 
+const size_t MAX_RANK_SCENARIOS = 256;
+
+bool readOffers(
+    const json& items,
+    std::vector<Offer>& offers,
+    std::string& error
+) {
+    if (!items.is_array() || items.size() < 2) {
+        error = "At least 2 offers are required";
+        return false;
+    }
+
+    offers.clear();
+
+    for (const auto& item : items) {
+        Offer offer;
+
+        offer.seller = item.at("seller").get<std::string>();
+        offer.price = item.at("price").get<double>();
+
+        // Buyer acquisition cost. Absent on historical
+        // no-shipping fixtures, which keep scoring price.
+        if (
+            item.contains("landedSubtotal") &&
+            item["landedSubtotal"].is_number()
+        ) {
+            offer.price = item["landedSubtotal"].get<double>();
+        }
+
+        offer.deliveryDays = item.at("deliveryDays").get<double>();
+        offer.rating = item.at("rating").get<double>();
+        offers.push_back(offer);
+    }
+
+    return true;
+}
+
+json rankingResponse(const RankingResult& result) {
+    json ranking = json::array();
+    int position = 1;
+
+    for (const auto& offer : result.ranking) {
+        ranking.push_back({
+            {"position", position},
+            {"seller", offer.seller},
+            {"price", offer.price},
+            {"deliveryDays", offer.deliveryDays},
+            {"rating", offer.rating},
+            {"score", offer.topsisScore}
+        });
+
+        ++position;
+    }
+
+    return {
+        {"engineVersion", "V9"},
+        {"weightMethod", "entropy"},
+        {"autoWeights", {
+            {"price", result.priceWeight},
+            {"delivery", result.deliveryWeight},
+            {"rating", result.ratingWeight}
+        }},
+        {"bestMatch", result.winner},
+        {"ranking", ranking}
+    };
+}
+
 int main() {
 
     const int port = listenPortFromEnvironment();
@@ -312,77 +379,25 @@ int main() {
                 }
 
                 std::vector<Offer> offers;
+                std::string offerError;
 
-                for (const auto& item : input["offers"]) {
+                if (!readOffers(input["offers"], offers, offerError)) {
+                    json error = {
+                        {"error", offerError}
+                    };
 
-                    Offer offer;
+                    res.status = 400;
 
-                    offer.seller =
-                        item.at("seller").get<std::string>();
+                    res.set_content(
+                        error.dump(),
+                        "application/json"
+                    );
 
-                    offer.price =
-                        item.at("price").get<double>();
-
-                    // Buyer acquisition cost. Absent on historical
-                    // no-shipping fixtures, which keep scoring price.
-                    if (
-                        item.contains("landedSubtotal") &&
-                        item["landedSubtotal"].is_number()
-                    ) {
-                        offer.price =
-                            item["landedSubtotal"].get<double>();
-                    }
-
-                    offer.deliveryDays =
-                        item.at("deliveryDays").get<double>();
-
-                    offer.rating =
-                        item.at("rating").get<double>();
-
-                    offers.push_back(offer);
+                    return;
                 }
-
-                RankingResult result =
-                    runV9(offers);
-
-                json ranking =
-                    json::array();
-
-                int position = 1;
-
-                for (const auto& offer : result.ranking) {
-
-                    ranking.push_back({
-                        {"position", position},
-                        {"seller", offer.seller},
-                        {"price", offer.price},
-                        {"deliveryDays", offer.deliveryDays},
-                        {"rating", offer.rating},
-                        {"score", offer.topsisScore}
-                    });
-
-                    ++position;
-                }
-
-                json response = {
-
-                    {"engineVersion", "V9"},
-
-                    {"weightMethod", "entropy"},
-
-                    {"autoWeights", {
-                        {"price", result.priceWeight},
-                        {"delivery", result.deliveryWeight},
-                        {"rating", result.ratingWeight}
-                    }},
-
-                    {"bestMatch", result.winner},
-
-                    {"ranking", ranking}
-                };
 
                 res.set_content(
-                    response.dump(2),
+                    rankingResponse(runV9(offers)).dump(2),
                     "application/json"
                 );
             }
@@ -399,6 +414,79 @@ int main() {
                     error.dump(),
                     "application/json"
                 );
+            }
+        }
+    );
+
+    server.Post("/rank-scenarios",
+        [](const httplib::Request& req,
+           httplib::Response& res) {
+
+            try {
+                json input = json::parse(req.body);
+
+                if (
+                    !input.contains("scenarios") ||
+                    !input["scenarios"].is_array() ||
+                    input["scenarios"].empty() ||
+                    input["scenarios"].size() > MAX_RANK_SCENARIOS
+                ) {
+                    json error = {
+                        {"error", "Ranking scenarios must contain 1 to 256 offer sets"}
+                    };
+
+                    res.status = 400;
+                    res.set_content(error.dump(), "application/json");
+                    return;
+                }
+
+                json scenarios = json::array();
+
+                for (const auto& scenario : input["scenarios"]) {
+                    if (
+                        !scenario.is_object() ||
+                        !scenario.contains("offers")
+                    ) {
+                        json error = {
+                            {"error", "At least 2 offers are required"}
+                        };
+
+                        res.status = 400;
+                        res.set_content(error.dump(), "application/json");
+                        return;
+                    }
+
+                    std::vector<Offer> offers;
+                    std::string offerError;
+
+                    if (!readOffers(scenario["offers"], offers, offerError)) {
+                        json error = {
+                            {"error", offerError}
+                        };
+
+                        res.status = 400;
+                        res.set_content(error.dump(), "application/json");
+                        return;
+                    }
+
+                    scenarios.push_back(rankingResponse(runV9(offers)));
+                }
+
+                json response = {
+                    {"engineVersion", "V9"},
+                    {"scenarios", scenarios}
+                };
+
+                res.set_content(response.dump(), "application/json");
+            }
+            catch (const std::exception& e) {
+                json error = {
+                    {"error", "Invalid request"},
+                    {"details", e.what()}
+                };
+
+                res.status = 400;
+                res.set_content(error.dump(), "application/json");
             }
         }
     );
