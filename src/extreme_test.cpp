@@ -52,6 +52,14 @@ bool loadOffers(
 
             offer.seller = item.at("seller").get<std::string>();
             offer.price = item.at("price").get<double>();
+
+            if (
+                item.contains("landedSubtotal") &&
+                item["landedSubtotal"].is_number()
+            ) {
+                offer.price = item["landedSubtotal"].get<double>();
+            }
+
             offer.deliveryDays = item.at("deliveryDays").get<double>();
             offer.rating = item.at("rating").get<double>();
 

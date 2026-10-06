@@ -323,6 +323,16 @@ int main() {
                     offer.price =
                         item.at("price").get<double>();
 
+                    // Buyer acquisition cost. Absent on historical
+                    // no-shipping fixtures, which keep scoring price.
+                    if (
+                        item.contains("landedSubtotal") &&
+                        item["landedSubtotal"].is_number()
+                    ) {
+                        offer.price =
+                            item["landedSubtotal"].get<double>();
+                    }
+
                     offer.deliveryDays =
                         item.at("deliveryDays").get<double>();
 
